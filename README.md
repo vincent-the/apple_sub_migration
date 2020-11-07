@@ -33,8 +33,13 @@ Open `apple.rb` and change Client Options
   end
 
 ```
+### 3, Set Apple Sub
 
-### 3, Run Migration: 
+Open `apple.rb` and change the Sub
+```ruby
+migration.sub = 'XXX'
+```
+### 4, Run Migration: 
 
 ```shell
 ruby ./lib/apple.rb
